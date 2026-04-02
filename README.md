@@ -24,7 +24,11 @@ The dataset is the Software category subset of the Amazon Reviews 2023 corpus:
 Hou, Y., Li, J., He, Z., Yan, A., Chen, X., & McAuley, J. (2024). *Bridging language and items for retrieval and recommendation.* arXiv:2403.03952.  
 https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023
 
-The raw file (`Software.jsonl`, ~1.87 GB) is **not included** in this repository and is not needed to reproduce results. The pre-processed subsample (`software_sample.csv`) and cached test embeddings are included and loaded automatically by the notebook.
+The raw file (`Software.jsonl`, ~1.87 GB) is **not included** in this repository and is not needed to reproduce results. 
+
+If you wish to download it directly: https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/resolve/main/raw/review_categories/Software.jsonl
+
+The pre-processed subsample (`software_sample.csv`) and cached test embeddings are included and loaded automatically by the notebook.
 
 The dataset contains **12,000 reviews** with a binary sentiment label derived from star ratings (1–2 stars = negative, 4–5 stars = positive, 3-star reviews excluded).
 
