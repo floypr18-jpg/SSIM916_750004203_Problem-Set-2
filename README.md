@@ -1,4 +1,4 @@
-# SSIM916_750004203_problem-set-2
+# SSIM916_750004203_Problem-Set-2
 # Problem Set 2 – Sentiment Classification of Software Reviews Using Machine Learning
 
 This project classifies Amazon Software reviews as positive or negative using two approaches: **TF-IDF + Logistic Regression** and **DistilBERT (frozen) + Logistic Regression**.  
